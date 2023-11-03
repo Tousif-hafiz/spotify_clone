@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home{
+    width: 100%;
+    height: 90vh;
+    background-image:url(./media/bubbles-mobile.png), Linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 6rem;
+}
+.imgcont{
+    margin-top: 4rem;
+    width: 250px;
+    height: 450px;
+    padding: 0px 10px;
+    padding-top: 60px;
+    background-color: white;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    position: relative;
+}
+.imgcont:first-of-type>div{
+    width: 3rem;
+    height: 0.5rem;
+    background-color: black;
+    position: absolute;
+    border-radius: 1rem;
+    top: 30px;
+    left: 40%;
+}
+.imgcont>img{
+    width: 230px;
+    height: 390px;
+}
+.conbtn{
+    width: 50%;
+}
+.conbtn>h1{
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.fbtn{
+    width: 11rem;
+    height: 2.5rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
