@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main_block{
+    width: 100%;
+    height: 75vh;
+}
+.main_block h1{
+    position: relative;
+    top: 50px;
+    text-align: center;
+}
+.parent{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.child{
+    width: 200px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.cont{
+    text-align: center;
+}
+.logo{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-image: linear-gradient(to top, rgb(108, 14, 224) , rgb(240, 55, 166));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo i{
+    font-size: 4.3rem;
+}

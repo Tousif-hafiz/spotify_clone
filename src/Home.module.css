@@ -13,7 +13,7 @@
     padding: 0 6rem;
 }
 .imgcont{
-    margin-top: 4rem;
+    margin-top: 8rem;
     width: 250px;
     height: 450px;
     padding: 0px 10px;
@@ -53,4 +53,9 @@
     background-color: white;
     text-align: center;
     margin-top: 2rem;
+    cursor: pointer;
+    /* transition: transform 1s linear; */
+}
+.fbtn:hover{
+    transform: scale(1.1);
 }
